@@ -6,8 +6,8 @@ dominio = field.value.substring(field.value.indexOf("@")+ 1, field.value.length)
 password_int = password.length;
 
 function validarSenha(){
-    if(password_int <= 8){
-        alert("A senha necessita ter mais de 9 Caracteres ");
+    if(password_int <= 7 && password_int>= 15){
+        alert("A senha necessita ter mais de 8 Caracteres e menos de 16");
     }else{
     return true;
     }
