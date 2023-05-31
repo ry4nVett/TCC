@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Perfil</title>
+
+    
+</head>
+<body>
+
+    <style>
+        .fa-eye{
+    width: 40px;
+    position: absolute;
+    right: 215px;
+    top: 475px;
+    color: #f0ffffde;
+    padding: 5px;
+    cursor: pointer;
+
+}
+    </style>
+    <main>
+        <div class="left-login">
+            <h1>Faça login<br>E divulgue sobre seu Trabalho</h1>
+            <img class="left-login-image" src="src/work-tattoo/logo1.png">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <form onsubmit="return checa_form(this)" name="lista" method="POST" action="teste.php">
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder=" Digite o seu usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Digite sua Senha" id="password">
+                    <i class="fa-regular fa-eye" id="toggle"></i>
+                </div>
+                <a href="Home.html"><button class="btn-login"> Login </button></a>
+            </form>
+            <a href="Registre_user.html"><button class="btn-home" >Registre-se</button></a>
+            </div>
+        
+        </div>
+    </div>
+    </main>
+
+    <script src="js/scriptpassword.js"></script>
+    <script src="js/scriptlogin.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/perfil.css">
+    <script src="js/scriptlogin.js"></script>
+    <title>Marque Horário</title>
+</head>
+<body>
+<main>
+    <div class="left-login">
+        <h1>Marque seu Horário<br>E aproveite a sua tatuagem</h1>
+        <img class="left-login-image" src="src/work-tattoo/logo1.png">
+    </div>
+    <div class="right-login">
+        <div class="card-login">
+            <h1>Marque Horário</h1>
+            <form onsubmit="return checa_form(this)" name="lista" method="POST" action="teste.php">
+            <div class="textfield">
+                <label for="usuario">Nome Completo: </label>
+                <input type="text" name="usuario" placeholder=" Digite o seu usuário">
+            </div>
+            <div class="textfield">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" placeholder="(xx)xxxxxxxx">
+            </div>
+            <div class="textfield">
+                <label for="senha">Digite seu E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu E-mail">
+          </div>
+
+        </form>
+        <a href="calen.html"><button class="btn-login"> Marcar Horário</button></a>
+        <a href="Home.html"><button class="btn-home" >Home</button></a>
+        </div>
+    
+    </div>
+</div>
+</main>
+</body>
+</html>

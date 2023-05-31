@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/perfil.css">
+  <link rel="stylesheet" href="sql/conexao.php">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>Registre-se</title>
+</head>
+<script language="Javascript" src="js/scriptlogin.js"></script>
+<body>
+  <main>
+    <div class="left-login">
+      <h1>Divulgue Sobre seu Trabalho</h1>
+      <img class="left-login-image" src="src/work-tattoo/logo1.png">
+    </div>
+    <div class="right-login">
+      <div class="card-login">
+        <h1>REGISTRE-SE</h1>
+        <form action='sql/cadastro.php' onsubmit="return checa_form(this)" name="lista" method="POST";>
+          <div class="textfield">
+            <label for="usuario">Registre seu usuário</label>
+            <input type="text" name="usuario" placeholder=" Digite o seu usuário">
+          </div>
+
+          <div class="textfield">
+            <label for="senha">Registre sua senha</label>
+            <input type="password"  onChange="validarSenha()" name="password" placeholder="Digite sua Senha" id="password">
+            <i class="fa-regular fa-eye" id="toggle"></i>
+          </div>
+
+          <div class="textfield">
+            <label for="email">Registre seu email </label>
+            <input type="email" name="email" onChange="validarEmail()" placeholder="Fulano@email.com">
+          </div>
+          <a href="Home.html"><button class="btn-login" type="submit" value="Registrar">Login</button></a>
+        </form>
+        <a href="Home.html"><button class="btn-home">Home</button></a>
+      </div>
+
+    </div>
+    </div>
+  </main>
+  <script src="js/scriptpassword.js"></script>
+</body>
+
+</html>

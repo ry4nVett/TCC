@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE1</title>
+    <link rel="stylesheet" href="css/Page_Diana.css">
+    <link rel="stylesheet" href="css/respon.css">
+    <link rel="stylesheet" href="css/carrosel_diana.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/34b5bf92a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/34b5bf92a4.css" crossorigin="anonymous">
+
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex-container>div {
+            width: 250px;
+            margin: 74px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body background="src/diana/body_diana.png" ;>
+
+    <nav>
+        <ul class="links-tsunami">
+            <li><a href="Home.html">Work tattoos</a></li>
+            <li id="artista"><a href="sobre_diana.html">Sobre a Diana</a></li>
+            <li>
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+    <Script>
+        const body = document.querySelector("body"),
+            nav = document.querySelector("nav"),
+            modeToggle = document.querySelector(".dark-light"),
+            searchToggle = document.querySelector(".searchToggle"),
+            sidebarOpen = document.querySelector(".sidebarOpen"),
+            siderbarClose = document.querySelector(".siderbarClose");
+
+        let getMode = localStorage.getItem("mode");
+        if (getMode && getMode === "dark-mode") {
+            body.classList.add("dark");
+        }
+
+        // js code to toggle dark and light mode
+        modeToggle.addEventListener("click", () => {
+            modeToggle.classList.toggle("active");
+            body.classList.toggle("dark");
+
+            // js code to keep user selected mode even page refresh or file reopen
+            if (!body.classList.contains("dark")) {
+                localStorage.setItem("mode", "light-mode");
+            } else {
+                localStorage.setItem("mode", "dark-mode");
+            }
+        });
+    </Script>
+    <script src="scriptdark.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <section id="studio">
+        <div>
+
+            <main>
+                <div class="artes">
+
+                    <h2 class="titulo_studio">Sobre o nosso studio</h2>
+                    <div class="carousel">
+                        <div class="carousel-controls">
+
+                            <div class="wrapper">
+                                <img src="src/diana/studio_daina3.png" />
+                                <img src="src/diana/studio_diana4.png" />
+                                <img src="src/diana/studio_diana2.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-location-dot"><a href="localização.html" id="localtsu" class="iconloc">
+                            Localização
+                            Studio</a></i>
+                    <br>
+                    <br>
+                    
+                   <h2> <p>Sou especializada em cursos de tatuagens coloriadas e artes minimalisticas</p></h2>
+                      
+
+                        
+    
+    <div>
+      <button id="catalogo1-btn" class="button_catalogo"><h1>Tatuagens</h1></button>
+      <i class="fa-sharp fa-solid fa-marker"><a href="horario_cli.html" class="cadastro">Marcar Horario</a></i>
+      <button id="catalogo2-btn" class="button_catalogo"><h1>Piercing</h1></button>
+    </div>
+  
+  <div class="catalogo" id="catalogo1"  style="display: none;">
+    <div class="flex">
+      <figure class="card">
+        <img src="src/tattoo/tattoo_diana/foto_catalogo1.jpg" width="450px" height="400px" class="card__image" />
+        <figcaption class="card__body">
+          <p class="card__description">Valor: $200 á 400</p>
+        </figcaption>
+      </figure>
+    </div>
+  
+    <div class="flex">
+      <figure class="card">
+        <img src="src/tattoo/tattoo_diana/foto_catalogo2.jpg" width="450px" height="400px" class="card__image" />
+        <figcaption class="card__body">
+          <p class="card__description">Valor: $200 á 400</p>
+        </figcaption>
+      </figure>
+    </div>
+  
+    <div class="flex">
+      <figure class="card">
+        <img src="src/tattoo/tattoo_diana/foto_catalogo3.jpg" width="450px" height="400px" class="card__image" />
+        <figcaption class="card__body">
+          <p class="card__description">Valor: $200 á 400</p>
+        </figcaption>
+      </figure>
+    </div>
+  
+    <div class="flex">
+      <figure class="card">
+        <img src="src/tattoo/tattoo_diana/foto_catalogo4.jpg" width="450px" height="400px" class="card__image" />
+        <figcaption class="card__body">
+          <p class="card__description">Valor: $200 á 400</p>
+        </figcaption>
+      </figure>
+    </div>
+  
+    <div class="flex">
+      <figure class="card">
+        <img src="src/tattoo/tattoo_diana/foto_catalogo5.jpg" width="450px" height="400px" class="card__image" />
+        <figcaption class="card__body">
+          <p class="card__description">Valor: $200 á 400</p>
+        </figcaption>
+      </figure>
+    </div>
+  
+    <div class="flex">
+      <figure class="card">
+        <img src="src/tattoo/tattoo_diana/foto_catalogo6.jpg" width="450px" height="400px" class="card__image" />
+        <figcaption class="card__body">
+          <p class="card__description">Valor: $200 á 400</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+
+  <!-- segudo catalogo/piercing -->
+  
+  <div class="catalogo" id="catalogo2" style="display: none;"> 
+      <div class="flex">
+        <figure class="card">
+          <img src="src/diana/diana_piercing.jpg" width="450px" height="400px" class="card__image" />
+          <figcaption class="card__body">
+            <p class="card__description">Valor: $200 á 400</p>
+          </figcaption>
+        </figure>
+      </div>
+    
+      <div class="flex">
+        <figure class="card">
+          <img src="src/diana/diana_piercing2.jpg" width="450px" height="400px" class="card__image" />
+          <figcaption class="card__body">
+            <p class="card__description">Valor: $200 á 400</p>
+          </figcaption>
+        </figure>
+      </div>
+    
+      <div class="flex">
+        <figure class="card">
+          <img src="src/diana/diana_piercing3.jpg" width="450px" height="400px" class="card__image" />
+          <figcaption class="card__body">
+            <p class="card__description">Valor: $200 á 400</p>
+          </figcaption>
+        </figure>
+      </div>
+    
+      <div class="flex">
+        <figure class="card">
+          <img src="src/diana/diana_piercing4.jpg" width="450px" height="400px" class="card__image" />
+          <figcaption class="card__body">
+            <p class="card__description">Valor: $200 á 400</p>
+          </figcaption>
+        </figure>
+      </div>
+    
+      <div class="flex">
+        <figure class="card">
+          <img src="src/diana/diana_piercing5.jpg" width="450px" height="400px" class="card__image" />
+          <figcaption class="card__body">
+            <p class="card__description">Valor: $200 á 400</p>
+          </figcaption>
+        </figure>
+      </div>
+    
+      <div class="flex">
+        <figure class="card">
+          <img src="src/diana/diana_piercing6.jpg" width="450px" height="400px" class="card__image" />
+          <figcaption class="card__body">
+            <p class="card__description">Valor: $200 á 400</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+  
+  <script>
+      const catalogo1Btn = document.getElementById("catalogo1-btn");
+      const catalogo2Btn = document.getElementById("catalogo2-btn");
+      const catalogo1 = document.getElementById("catalogo1");
+      const catalogo2 = document.getElementById("catalogo2");
+    
+      catalogo1Btn.addEventListener("click", () => {
+        catalogo1.style.display = catalogo1.style.display === "none" ? "flex" : "none";
+        catalogo2.style.display = "none";
+      });
+    
+      catalogo2Btn.addEventListener("click", () => {
+        catalogo2.style.display = catalogo2.style.display === "none" ? "flex" : "none";
+        catalogo1.style.display = "none";
+      });
+    </script>
+
+
+</section>
+
+
+                </div>
+
+
+    </section>
+
+
+    <footer>
+
+
+        <h1 class="titulo_studio">CONTATO</h1>
+        <ul>
+
+            <li><i class="fa-brands fa-instagram"><a href="https://www.instagram.com/"> Studio Fulano </a></i></li>
+
+            <li><i class="fa-brands fa-facebook"><a href="https://www.facebook.com/"> Studio Fulano </a></i></li>
+
+            <li><i class="fa-solid fa-phone-volume"><a> (45) 3264-4942</a></i></li>
+
+        </ul>
+
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,60 @@
+
+.foto_anderson{
+    position: absolute;
+    width: 550px;
+    right: 500px;
+    margin-right: 40%;
+    margin-top: 8%;
+    border: 4px solid #000000;
+    border-radius: 10%;
+}
+
+.descricao_anderson{
+    position: absolute;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 20%;
+    max-width: 1000px;
+    margin-bottom: 100px;
+    font-family: century gothic;
+    text-align: center;
+}
+
+.foto_ryan{
+    position: absolute;
+    width: 550px;
+    right: 500px;
+    margin-right: 40%;
+    margin-top: 56%;
+    border: 4px solid #000000;
+    border-radius: 10%;
+}
+.descricao_ryan{
+    position: absolute;
+    font-size: 30px;
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    font-family: century gothic;
+    text-align: center;
+}
+.foto_henrique{
+    position: absolute;
+    width: 550px;
+    right: 500px;
+    margin-top: 92%;
+    margin-right: 40%;
+    border: 4px solid #000000;
+    border-radius: 10%;
+}
+.descricao_henrique{
+    position: absolute;
+    font-size: 30px;
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 92%;
+    margin-bottom: 20px;
+    font-family: century gothic;
+    text-align: center;
+    }
