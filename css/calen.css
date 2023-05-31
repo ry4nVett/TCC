@@ -2,6 +2,7 @@
     --primary-clr: #2a4d67;
     --goto-clr:#FF3131; 
   }
+  
   * {
     margin: 0;
     box-sizing: border-box;

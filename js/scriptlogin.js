@@ -10,6 +10,7 @@ function validarSenha(){
         alert("A senha necessita ter mais de 8 Caracteres e menos de 16");
     }else{
     return true;
+    
     }
 }
 
