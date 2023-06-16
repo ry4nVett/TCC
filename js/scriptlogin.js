@@ -1,5 +1,5 @@
 password = document.getElementsByName('password');
-email = document.getElementsByName('email');
+dominio = document.getElementsByName('email');
 dominio = field.value.substring(field.value.indexOf("@")+ 1, field.value.length);
 
 
